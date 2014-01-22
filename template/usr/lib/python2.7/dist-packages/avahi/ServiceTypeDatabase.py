@@ -1,0 +1,1 @@
+../../../../share/pyshared/avahi/ServiceTypeDatabase.py
