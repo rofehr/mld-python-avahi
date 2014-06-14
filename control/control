@@ -4,6 +4,6 @@ Section:
 Priority: optional
 Maintainer: TEAM <team@minidvblinux.de>
 Architecture: {ARCH}
-Depends: avahi
+Depends: python
 Homepage: http://www.minidvblinux.de
 Description: 
