@@ -11,6 +11,6 @@ clean: _clean
 
 $(data): $(data_tree)
 	dpkg -L $(deps) | grep "/usr/bin\|/usr/lib/python$(version)\|/usr/lib/pyshared/python$(version)\|/usr/lib/libpython\|/usr/share/python\|/usr/share/pyshared" | while read file; do \
-		test -d $$file && mkdir -p $@$$file; \
-		test -f $$file && cp -d $$file $@$$file; \
+		test -d "$$file" && mkdir -p "$@$$file"; \
+		test -f "$$file" && cp -d "$$file" "$@$$file"; \
 	done
