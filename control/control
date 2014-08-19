@@ -4,6 +4,6 @@ Section:
 Priority: optional
 Maintainer: TEAM <team@minidvblinux.de>
 Architecture: {ARCH}
-Depends: python
+Depends: python, python-gobject-2
 Homepage: http://www.minidvblinux.de
 Description: 
