@@ -1,6 +1,6 @@
 Package: python-avahi
 Version: {VERSION}
-Section: 
+Section: system
 Priority: optional
 Maintainer: TEAM <team@minidvblinux.de>
 Architecture: {ARCH}
