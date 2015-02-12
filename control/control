@@ -1,4 +1,4 @@
-Package: python-avahi
+Package: {name}
 Version: {VERSION}
 Section: libs
 Priority: optional

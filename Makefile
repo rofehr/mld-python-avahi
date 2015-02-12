@@ -1,5 +1,5 @@
 version := $(shell $(MAKE) -C ../python --no-print-directory -s version | cut -d- -f1)
-deps := python-gdbm libavahi-common-data python-dbus python-avahi
+deps := python-gdbm libavahi-common-data python-dbus python-avahi python-ipaddr
 
 include ../Makefile.default
 include ../Makefile.tools
